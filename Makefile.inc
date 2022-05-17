@@ -8,7 +8,7 @@ INSTALL_DIR ?= /usr/local
 
 # LIB_ARCH   = lib
 LIB_ARCH   = lib64
-GPU_ARCH_FLAG = -arch=sm_75
+GPU_ARCH_FLAG = -arch=sm_61
 
 GCC        = gcc
 GXX        = g++
