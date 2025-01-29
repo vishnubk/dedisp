@@ -8,7 +8,7 @@ INSTALL_DIR ?= /usr/local
 
 # LIB_ARCH   = lib
 LIB_ARCH   = lib64
-GPU_ARCH_FLAG = -gencode arch=compute_60,code=sm_60 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_89,code=sm_89
+GPU_ARCH_FLAG = -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_89,code=sm_89
 
 GCC        = gcc
 GXX        = g++
