@@ -8,7 +8,7 @@ INCLUDE_DIR = include
 
 SRC_DIR   := src
 #INC_DIR   := ./include
-OPTIMISE  := 
+OPTIMISE  := -O3 
 # Note: Using -G makes the GPU kernel 16x slower!
 DEBUG     := -g -DDEDISP_DEBUG=$(DEDISP_DEBUG) #-G
 
